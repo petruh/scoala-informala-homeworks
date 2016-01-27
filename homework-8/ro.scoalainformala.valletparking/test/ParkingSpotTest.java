@@ -8,6 +8,7 @@ import ro.scoalainformala.parking.ParkingSpot;
 import ro.scoalainformala.vehicles.Car;
 import ro.scoalainformala.vehicles.Logan;
 
+//TODO CODE REVIEW: Tests should be located in its own test source directory. Please look at the Java testing guides
 public class ParkingSpotTest {
 	private ParkingSpot<Car> spot;
 	private Car car;
