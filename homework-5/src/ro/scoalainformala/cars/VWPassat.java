@@ -16,7 +16,7 @@ public class VWPassat extends VW {
 	@Override
 	protected float getFuelConsumption(int gear, double km) {
 		float fuelConsumption;
-		
+			// TODO CODE REVIEW: You were supposed to have different algorithms for at least 2 fuel consumptions. Basically all classes share the same behavior.
 			switch (gear) {
 				case 1: fuelConsumption = 9.43f;
 						break;
